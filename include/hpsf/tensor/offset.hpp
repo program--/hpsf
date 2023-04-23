@@ -5,8 +5,8 @@
 namespace hpsf {
 namespace tensor {
 
-template<std::size_t dimension>
-class tensor<dimension>::view
+template<std::size_t dimension, class Container>
+class tensor<dimension, Container>::offset
 {};
 
 } // namespace tensor
