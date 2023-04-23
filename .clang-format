@@ -1,0 +1,19 @@
+---
+Language: Cpp
+BasedOnStyle: Mozilla
+IndentWidth: 4
+DerivePointerAlignment: false
+PointerAlignment: Left
+AlignAfterOpenBracket: BlockIndent
+AlignConsecutiveMacros: AcrossEmptyLines
+AlignConsecutiveAssignments: AcrossEmptyLines
+AlignConsecutiveBitFields: AcrossEmptyLines
+AlignConsecutiveDeclarations: AcrossEmptyLines
+AlignEscapedNewlines: Left
+AlignTrailingComments: true
+AlwaysBreakTemplateDeclarations: Yes
+AlwaysBreakAfterDefinitionReturnType: None
+AlwaysBreakAfterReturnType: None
+SortUsingDeclarations: true
+SortIncludes: false
+FixNamespaceComments: true
